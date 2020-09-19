@@ -17,5 +17,5 @@ int main(void) {
   char *num = readline("Enter an int: ");
   int init_num = atof(num); 
   int fin_sum = digit_sum(init_num);
-  printf("sum of digits of %d is %d.sum is .\n", init_num, fin_sum);
+  printf("sum of digits of %d is %d.\n", init_num, fin_sum);
 }
